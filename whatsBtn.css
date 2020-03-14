@@ -1,0 +1,16 @@
+#whatsBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    width: 35px;
+    height: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#whatsBtn:hover {
+    width: 37px;
+}

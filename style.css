@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* https://www.cssfontstack.com/Arial */
+
+* {
+    background-color: white;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.titol {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.subTitol {
+    /* https://www.cssfontstack.com/Cambria */
+    font-family: Cambria, Georgia, serif;
+}
+
+h1 {
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h3 {
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+p {
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+blockquote {
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+pre {
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
