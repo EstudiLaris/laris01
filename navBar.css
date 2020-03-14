@@ -28,8 +28,9 @@
     
     .idioma {
         position: absolute;
-        top: 10px;
+        top: 3px;
         right: 20px;
+        line-height: 25px;
     }
     
     .clnavBar ol .imgIco {
@@ -48,6 +49,7 @@
     }
     
     #titolPrincipal h1 {
+        padding-top: 10px;
         font-size: 35px;
     }
     
@@ -86,7 +88,13 @@
     }
     
     .img-height {
-        height: 50px;
+        height: 55px;
         width: auto !important;
         text-align: right;
+    }
+    
+    #Logo {
+        float: left;
+        padding-top: 5px;
+        padding-right: 15px;
     }

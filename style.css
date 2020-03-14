@@ -39,7 +39,7 @@ section {
 
 h1 {
     /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
-    font-size: 24px;
+    font-size: 40px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -82,6 +82,30 @@ pre {
     line-height: 23px;
 }
 
+.grid-container-1 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 80%;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container-2 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container-3 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: white;
+    padding: 10px;
+}
+
 .grid-container-28 {
     display: grid;
     justify-content: space-evenly;
@@ -96,6 +120,11 @@ pre {
 
 .grid-item img {
     vertical-align: middle;
+}
+
+#imatge-grid {
+    width: 80%;
+    height: auto;
 }
 
 footer {
@@ -120,4 +149,23 @@ footer ol li a {
 
 footer ol li a:hover {
     font-size: 17px;
+}
+
+@media (max-width: 750px) {
+    [class*="grid-container-"] {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: white;
+        padding: 10px;
+    }
+    footer ol li {
+        padding: 3px;
+        display: block;
+    }
+    #titolPrincipal h1 {
+        padding-top: 10px;
+    }
+    section {
+        width: 100%;
+    }
 }
