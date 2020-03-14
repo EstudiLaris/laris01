@@ -21,3 +21,9 @@ function obrirSubmenu() {
         x.style.display = "none";
     }
 }
+
+function canviPagina(pagina) {
+    document.getElementById("subMenu").style.display = "none";
+    document.getElementById("navMenu").style.display = "none";
+    setTimeout(function() { document.location.href = pagina; }, 5);
+}
