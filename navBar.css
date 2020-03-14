@@ -25,6 +25,17 @@ nav select {
     right: 10px;
 }
 
+.idioma {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.imgIco {
+    width: 20px;
+    height: auto;
+}
+
 #titolPrincipal {
     margin: auto;
     width: 320px;
