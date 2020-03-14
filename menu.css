@@ -1,0 +1,31 @@
+.navMenu {
+    width: 0px;
+    height: 100%;
+    background-color: lightgrey;
+    position: fixed;
+    top: 0;
+    display: block;
+    z-index: 2;
+    line-height: 40px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.navMenu a {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.navMenu a:hover {
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+label #cancel {
+    position: absolute;
+    font-size: 25px;
+    color: black;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}

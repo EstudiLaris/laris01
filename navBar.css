@@ -1,91 +1,92 @@
-.cltop {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: auto;
-    border-bottom: lightgrey;
-    border-style: solid;
-    display: inline;
-    z-index: 1;
-}
-
-.clnavBar {
-    width: 100%;
-    overflow: hidden;
-}
-
-nav img {
-    width: 80px;
-}
-
-nav select {
-    position: absolute;
-    /* width: 150px; */
-    top: 15px;
-    right: 10px;
-}
-
-.idioma {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-}
-
-.imgIco {
-    width: 20px;
-    height: auto;
-}
-
-#titolPrincipal {
-    margin: auto;
-    width: 320px;
-}
-
-#titolPrincipal h1 {
-    font-size: 35px;
-}
-
-#titolPrincipal h2 {
-    font-size: 25px;
-}
-
-label #btn,
-label #cancel {
-    position: absolute;
-    font-size: 30px;
-    color: black;
-    top: 15px;
-    float: left;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-label #cancel {
-    display: none;
-}
-
-#check {
-    display: none;
-}
-
-.j-w3-animate-top {
-    position: relative;
-    animation: animatetop 0.4s
-}
-
-@keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-    to {
+    .cltop {
+        position: fixed;
         top: 0;
-        opacity: 1
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-bottom: lightgrey;
+        border-style: solid;
+        display: inline;
+        z-index: 1;
     }
-}
-
-.img-height {
-    height: 50px;
-    width: auto !important;
-    text-align: right;
-}
+    
+    .clnavBar {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .clnavBar img {
+        width: 80px;
+    }
+    
+    .clnavBar select {
+        position: absolute;
+        /* width: 150px; */
+        top: 15px;
+        right: 10px;
+    }
+    
+    .idioma {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    
+    .clnavBar ol .imgIco {
+        width: 20px;
+        height: auto;
+    }
+    
+    .clnavBar ol .imgIco:hover {
+        width: 22px;
+        height: auto;
+    }
+    
+    #titolPrincipal {
+        margin: auto;
+        width: 320px;
+    }
+    
+    #titolPrincipal h1 {
+        font-size: 35px;
+    }
+    
+    #titolPrincipal h2 {
+        font-size: 25px;
+    }
+    
+    label #btn {
+        position: absolute;
+        font-size: 25px;
+        color: black;
+        top: 15px;
+        float: left;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    
+    #check {
+        display: none;
+    }
+    
+    .j-w3-animate-top {
+        position: relative;
+        animation: animatetop 0.4s
+    }
+    
+    @keyframes animatetop {
+        from {
+            top: -300px;
+            opacity: 0
+        }
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+    
+    .img-height {
+        height: 50px;
+        width: auto !important;
+        text-align: right;
+    }
