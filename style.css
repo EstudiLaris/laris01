@@ -97,3 +97,27 @@ pre {
 .grid-item img {
     vertical-align: middle;
 }
+
+footer {
+    border-top: solid;
+    border-color: lightgrey;
+}
+
+footer ol {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer ol li {
+    display: inline;
+    margin: auto;
+    padding-left: 25px;
+}
+
+footer ol li a {
+    font-size: 15px;
+}
+
+footer ol li a:hover {
+    font-size: 17px;
+}

@@ -71,7 +71,18 @@
                 <a href="javascript:canviPagina('team.html');">Equip</a>
             </li>
             <li>
-                <a href="javascript:alert('encara no');">Serveis</a>
+                <a href="javascript:obrirSubmenu();">Serveis</a>
+                <ul class="subMenu" id="subMenu">
+                    <li>
+                        <a href="javascript:alert('encara no');">Servei 1</a>
+                    </li>
+                    <li>
+                        <a href="javascript:alert('encara no');">Servei 2</a>
+                    </li>
+                    <li>
+                        <a href="javascript:alert('encara no');">Servei 3</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="javascript:canviPagina('contacte.html');">Contacte</a>
@@ -122,8 +133,31 @@
 
 
 
+    <footer class="container">
+        <ol>
+            <li><a href="contacte.html" class="titol">ESTUDI LARIS</a></li>
+            <li>
+                <a href="mailto:estudi.laris@gmail.com" target="_top">
+                    <i class="fas fa-at" id="idMail">: estudi.laris@gmail.com</i></a>
+            </li>
+
+            <li>
+                <a href="tel:34666333999">
+                    <i class="fas fa-mobile-alt" id="idPhone">:  +34 666 333 999</i>
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                    <i class="fab fa-whatsapp" id="idWhatsCA">: Envia whatsapp</i>
+                </a>
+            </li>
+
+            <li><a href="politica.html" target="_blank">Política de privacitat</a></li>
+        </ol>
+    </footer>
+
     <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
-        <img src="pictures/Icono-Whatsapp.png" alt="" id="whatsBtn">
+        <img src="pictures/Icono-Whatsapp.png" alt=" " id="whatsBtn">
     </a>
     <script src="navBar.js"></script>
     <script src="menu.js"></script>
