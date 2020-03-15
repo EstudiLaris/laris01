@@ -15,6 +15,7 @@ function closeNav() {
 
 function obrirSubmenu() {
     var x = document.getElementById("subMenu");
+    console.log(x);
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
