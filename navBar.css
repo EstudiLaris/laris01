@@ -44,17 +44,23 @@
     }
     
     #titolPrincipal {
+        width: 350px;
+        height: auto;
         margin: auto;
-        width: 320px;
+        text-align: center;
+        padding: 0;
     }
     
     #titolPrincipal h1 {
-        padding-top: 10px;
-        font-size: 35px;
+        color: black;
+        padding: 18px;
+        font-size: 26px;
+        font-weight: 1000;
+        letter-spacing: 5px;
     }
     
-    #titolPrincipal h2 {
-        font-size: 25px;
+    #titolMenu {
+        display: none;
     }
     
     label #btn {
@@ -94,7 +100,6 @@
     }
     
     #Logo {
-        float: left;
-        padding-top: 5px;
-        padding-right: 15px;
+        height: 120px;
+        width: auto;
     }

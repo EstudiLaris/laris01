@@ -46,6 +46,15 @@ h1 {
     line-height: 26.4px;
 }
 
+h2 {
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+
 h3 {
     /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
     font-size: 17px;
