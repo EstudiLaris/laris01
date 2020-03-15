@@ -160,7 +160,25 @@ footer ol li a:hover {
     font-size: 17px;
 }
 
-@media (max-width: 750px) {
+article a {
+    font-size: 15px;
+}
+
+article a:hover {
+    font-size: 17px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+@media (max-width: 600px) {
     [class*="grid-container-"] {
         display: grid;
         grid-template-columns: auto;
