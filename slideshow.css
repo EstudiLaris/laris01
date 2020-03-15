@@ -24,9 +24,9 @@ img {
     font-weight: bold;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
     width: 100%;
-    text-align: center;
+    margin: auto;
+    bottom: 50px;
 }
 
 
