@@ -1,9 +1,9 @@
 #whatsBtn {
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 15px;
+    right: 15px;
     z-index: 99;
-    width: 35px;
+    width: 50px;
     height: auto;
     border: none;
     outline: none;
