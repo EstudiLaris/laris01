@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="whatsBtn.css">
     <link rel="stylesheet" href="navBar.css">
     <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="fotoPrincipal.css">
+    <link rel="stylesheet" href="colapsable.css">
+    <link rel="stylesheet" href="modal.css">
 
     <link rel="icon" href="pictures/200127_Logo.jpg" type="image/gif" sizes="16x16">
 
@@ -105,6 +109,23 @@
                 <br><br>
                 <h2>Pau Padullés</h2>
                 <h3>Arquitecte</h3>
+
+                <!-- Trigger/Open The Modal -->
+                <button id="btnModal" onclick="obrirModal('modalPau')"><i class="fas fa-plus-circle"></i></button>
+                <!-- The Modal -->
+                <div id="modalPau" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <button id="btnCloseModal" onclick="tancarModal('modalPau')">&times;</button>
+                        <br>
+                        <br>
+                        <h2>Pau Padullés</h2>
+                        <h3>Arquitecte</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                </div>
                 <br>
                 <a href="mailto:pau.psco@gmail.com" target="_top">
                     <i class="fas fa-at">: pau.psco@gmail.com</i>
@@ -121,9 +142,10 @@
                 </a>
                 <br>
                 <i class="fab fa-linkedin-in">
-                    <a href="linkedin.com" target="_blank">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/pau-padull%C3%A9s-castell%C3%B3-0a46872b/" target="_blank">Linkedin</a>
                 </i>
-                <br><br>
+                <br>
+                <br>
             </article>
 
             <article class="grid-item">
@@ -133,6 +155,22 @@
                 <br><br>
                 <h2>Laia Cunill</h2>
                 <h3>Enginyera de materials</h3>
+                <!-- Trigger/Open The Modal -->
+                <button id="btnModal" onclick="obrirModal('modalLaia')"><i class="fas fa-plus-circle"></i></button>
+                <!-- The Modal -->
+                <div id="modalLaia" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <button id="btnCloseModal" onclick="tancarModal('modalLaia')">&times;</button>
+                        <br>
+                        <br>
+                        <h2>Laia Cunill</h2>
+                        <h3>Enginyera de materials</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                </div>
                 <br>
                 <a href="mailto:cunillaragones.laia@gmail.com" target="_top">
                     <i class="fas fa-at">: cunillaragones.laia@gmail.com</i>
@@ -149,9 +187,10 @@
                 </a>
                 <br>
                 <i class="fab fa-linkedin-in">
-                    <a href="linkedin.com" target="_blank">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/laia-cunill-aragon%C3%A8s-421b37100/" target="_blank">Linkedin</a>
                 </i>
 
+                <br>
             </article>
         </section>
 
@@ -186,6 +225,10 @@
     </a>
     <script src="navBar.js"></script>
     <script src="menu.js"></script>
+    <script src="slideshow.js"></script>
+    <script src="fotoPrincipal.js"></script>
+    <script src="colapsable.js"></script>
+    <script src="modal.js"></script>
 
 </body>
 
