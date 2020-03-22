@@ -44,3 +44,17 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
+
+function imgStyleIn(onSoc, imatge) {
+    var fons = document.getElementById(onSoc);
+    fons.style.backgroundColor = "lightgrey";
+    fons.style.borderRadius = "5%";
+    document.getElementById(imatge).style.borderRadius = "50%";
+}
+
+function imgStyleOut(onSoc, imatge) {
+    var fons = document.getElementById(onSoc);
+    fons.style.backgroundColor = "white";
+    fons.style.borderRadius = "0%";
+    document.getElementById(imatge).style.borderRadius = "10%";
+}

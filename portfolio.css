@@ -29,11 +29,50 @@
     clear: both;
 }
 
+.content {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/*
+.content:hover {
+    background-color: lightgrey;
+    border-radius: 10%;
+}
+*/
+
+.content img {
+    margin-bottom: 15px;
+    width: 90%;
+    padding: 5px;
+    border-radius: 10%;
+    box-shadow: 5px 10px 18px #888888;
+    transition: 0.5s;
+}
+
+
+/*
+.content img:hover {
+    border-radius: 50%;
+}
+*/
+
 
 /* The "show" class is added to the filtered elements */
 
 .show {
     display: block;
+    animation: .6s zoom-in;
+}
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: none;
+    }
 }
 
 
