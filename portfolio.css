@@ -44,7 +44,7 @@
 }
 
 .content h4:hover,
-p:hover {
+.content p:hover {
     text-decoration: underline;
     font-weight: bolder;
 }
