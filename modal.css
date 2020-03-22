@@ -3,11 +3,12 @@
 #btnModal {
     font-size: 20px;
     background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.6s;
 }
 
 #btnModal:hover {
-    font-size: 22px;
-    cursor: pointer;
+    transform: rotateZ(360deg);
 }
 
 #btnCloseModal {
