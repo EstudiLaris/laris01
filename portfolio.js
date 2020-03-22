@@ -51,7 +51,7 @@ function imgStyleIn(onSoc, imatge) {
     fons.style.backgroundColor = "lightgrey";
     fons.style.borderRadius = "5%";
     */
-    document.getElementById(imatge).style.borderRadius = "25%";
+    document.getElementById(imatge).style.borderRadius = "20%";
 }
 
 function imgStyleOut(onSoc, imatge) {
