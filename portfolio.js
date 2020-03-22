@@ -58,7 +58,7 @@ function imgStyleOut(onSoc, imatge) {
     /*
     var fons = document.getElementById(onSoc);
     fons.style.backgroundColor = "white";
-    fons.style.borderRadius = "0%";
+    fons.style.borderRadius = "0%" ;
     */
     document.getElementById(imatge).style.borderRadius = "10%";
 }
