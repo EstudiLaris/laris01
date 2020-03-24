@@ -52,7 +52,7 @@ h2 {
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 32px;
 }
 
 h3 {
@@ -206,5 +206,9 @@ hr {
     }
     section {
         width: 100%;
+    }
+    #LogoBenvinguda {
+        width: 100% !important;
+        height: auto;
     }
 }
