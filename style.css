@@ -211,4 +211,10 @@ hr {
         width: 100% !important;
         height: auto;
     }
+    .column {
+        float: left;
+        width: 50% !important;
+        display: none;
+        /* Hide all elements by default */
+    }
 }
